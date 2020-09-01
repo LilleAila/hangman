@@ -2,8 +2,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /*background-color: rgba(0, 0, 0, 0.8);*/
-    animation: bgcolor 15s infinite linear alternate;
+    background-color: rgba(0, 0, 0, 0.8);
+    /*animation: bgcolor 5s infinite linear alternate;*/
     min-width: 650px;
     min-height: 650px;
     display: grid;
@@ -25,15 +25,6 @@ body {
         place-items: center;
         align-content: center;
         justify-items: center;
-    }
-}
-
-@keyframes bgcolor {
-    from {
-        background-color: black;
-    }
-    to {
-        background-color: whitesmoke;
     }
 }
 
@@ -99,10 +90,12 @@ kbd {
 
 kbd:hover {
     background-color: #E6E6E6;
+    color: black;
 }
 
 kbd:active {
     box-shadow: none;
+    color: black;
 }
 
 b {
@@ -114,10 +107,22 @@ b {
 }
 
 .kryss {
-    color: red;
+    /* color: red;
     position: absolute;
     height: 50px;
-    width: 50px;
+    width: 50px; */
+    background-color: red;
+    color: white;
+}
+
+.kryss:hover {
+    background-color: red;
+    color: white;
+}
+
+.kryss:active {
+    background-color: red;
+    color: white;
 }
 
 #snackbar {
