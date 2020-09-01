@@ -85,7 +85,7 @@ $('document').ready(function() {
                 $('#liv').html(`Liv: <b>${liv}</b>`);
                 bokstaver.push(id);
                 //$(`#${id}`).addClass('kryss');
-                $(`#${id}`).append(`<div class="kryss">×</div>`);
+                $(`#${id}`).addClass('kryss')
                 if (liv <= 0) {
                     alert('Du Tapte');
                     setTimeout(function() {
