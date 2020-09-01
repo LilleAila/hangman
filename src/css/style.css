@@ -3,7 +3,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     /*background-color: rgba(0, 0, 0, 0.8);*/
-    animation: bgcolor 60s infinite linear alternate;
+    animation: bgcolor 30s infinite linear alternate;
     min-width: 650px;
     min-height: 650px;
     display: grid;
