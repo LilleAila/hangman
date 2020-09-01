@@ -3,8 +3,8 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: rgba(0, 0, 0, 0.8);
-    width: 100vw;
-    height: 100vh;
+    min-width: 650px;
+    min-height: 650px;
     display: grid;
     place-items: center;
     align-content: center;
@@ -12,8 +12,8 @@ body {
 }
 
 #hang {
-    width: 100vmin;
-    height: 100vmin;
+    width: 100%;
+    height: 100%;
     background-color: white;
     margin: 5px;
     display: flex;
@@ -161,7 +161,8 @@ b {
     display: none;
 }
 
-@media only screen and (max-width: 650px),
+
+/*@media only screen and (max-width: 650px),
 (max-height: 650px) {
     #liten {
         display: grid;
@@ -170,8 +171,8 @@ b {
         align-content: center;
         background-color: black;
         color: white;
-        height: 100vh;
-        width: 100vw;
+        height: 100%;
+        width: 100%;
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -179,4 +180,4 @@ b {
     #hang {
         display: none;
     }
-}
+}*/
